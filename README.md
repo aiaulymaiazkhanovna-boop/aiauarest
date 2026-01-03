@@ -1,0 +1,187 @@
+
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Ayaulym | Lex Financia</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --gold: #D4AF37;
+            --black: #0a0a0a;
+            --gray: #1a1a1a;
+            --white: #ffffff;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background-color: var(--black);
+            color: var(--white);
+            font-family: 'Segoe UI', Helvetica, sans-serif;
+            line-height: 1.4;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        /* Hero Section - Телефонға ыңғайланған */
+        .hero {
+            padding: 40px 15px;
+            text-align: center;
+            background: radial-gradient(circle at center, #1a1a1a 0%, #000 100%);
+            min-height: 60vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main-logo {
+            width: 80%; /* Телефонда экранның 80%-ын алады */
+            max-width: 280px; /* Компьютерде 280px-тен аспайды */
+            height: auto;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            filter: drop-shadow(0 0 10px var(--gold));
+        }
+
+        .glitter-text {
+            font-size: 1.8rem; /* Мәтін кішірейтілді */
+            background: linear-gradient(45deg, #BF953F, #FCF6BA, #B38728);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .subtitle { 
+            color: #aaa; 
+            font-size: 0.9rem; 
+            max-width: 90%; 
+            margin-bottom: 20px;
+        }
+
+        /* Қызметтер - Тізім ретінде */
+        .container { 
+            width: 100%;
+            max-width: 600px; 
+            margin: 0 auto; 
+            padding: 20px 15px; 
+        }
+
+        .price-card {
+            background: var(--gray);
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-left: 4px solid var(--gold);
+            font-size: 0.9rem;
+        }
+
+        .service-name { font-weight: 600; flex: 1; padding-right: 10px; }
+        .service-price { color: var(--gold); font-weight: 800; white-space: nowrap; }
+
+        /* Батырмалар - Үлкен және басуға оңай */
+        .contact-btns {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 30px;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 16px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 1rem;
+        }
+
+        .btn-wa { background: #25D366; color: white; }
+        .btn-insta { background: linear-gradient(45deg, #f09433, #dc2743, #bc1888); color: white; }
+        .btn-mail { background: var(--gold); color: black; }
+
+        /* WhatsApp Float - Кішірейтілді */
+        .wa-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25D366;
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            color: white;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+            z-index: 1000;
+        }
+
+        footer { text-align: center; padding: 30px; color: #555; font-size: 0.75rem; }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <img src="image.png" onerror="this.src='https://via.placeholder.com/250x250/1a1a1a/D4AF37?text=LEX+FINANCIA'" alt="Logo" class="main-logo">
+        <h1 class="glitter-text">AYAULYM</h1>
+        <p class="subtitle">Банк және ЧСИ аресттерін заңды түрде шешу</p>
+    </section>
+
+    <div class="container">
+        <div class="price-card">
+            <span class="service-name">Арест шешу</span>
+            <span class="service-price">5 000 ₸</span>
+        </div>
+        <div class="price-card">
+            <span class="service-name">Сот арқылы арест</span>
+            <span class="service-price">10 000 ₸</span>
+        </div>
+        <div class="price-card">
+            <span class="service-name">График МФО</span>
+            <span class="service-price">8 000 ₸</span>
+        </div>
+        <div class="price-card">
+            <span class="service-name">График Банк</span>
+            <span class="service-price">10 000 ₸</span>
+        </div>
+        <div class="price-card">
+            <span class="service-name">Жедел график</span>
+            <span class="service-price">12 000 ₸+</span>
+        </div>
+
+        <div class="contact-btns">
+            <a href="https://wa.me/77088147689" class="btn btn-wa">
+                <i class="fab fa-whatsapp"></i> WhatsApp-қа жазу
+            </a>
+            <a href="https://instagram.com/aiaulym_aiazkhanova" class="btn btn-insta">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="mailto:aiaulym@example.com" class="btn btn-mail">
+                <i class="fas fa-envelope"></i> Почтаға жазу
+            </a>
+        </div>
+    </div>
+
+    <a href="https://wa.me/77088147689" class="wa-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer>
+        &copy; 2024 LEX FINANCIA. Барлық құқықтар қорғалған.
+    </footer>
+
+</body>
+</html>
