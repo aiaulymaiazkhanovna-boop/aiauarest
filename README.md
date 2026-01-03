@@ -166,7 +166,7 @@
             <a href="https://wa.me/77088147689" class="btn btn-wa">
                 <i class="fab fa-whatsapp"></i> WhatsApp-қа жазу
             </a>
-            <a href="https://instagram.com/aiaulym_aiazkhanova" class="btn btn-insta">
+            <a href="[https://instagram.com/aiaulym_aiazkhanova](https://www.instagram.com/aiaulym_aiazkhanova?igsh=dm9qYXJpbWV1amJs&utm_source=qr)" class="btn btn-insta">
                 <i class="fab fa-instagram"></i> Instagram
             </a>
             <a href="mailto:aiaulym@example.com" class="btn btn-mail">
