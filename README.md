@@ -135,7 +135,7 @@
 <body>
 
     <section class="hero">
-        <img src="image.png" onerror="this.src='https://via.placeholder.com/250x250/1a1a1a/D4AF37?text=LEX+FINANCIA'" alt="Logo" class="main-logo">
+        <img src="image.jpeg" onerror="this.src='https://via.placeholder.com/250x250/1a1a1a/D4AF37?text=LEX+FINANCIA'" alt="Logo" class="main-logo">
         <h1 class="glitter-text">AYAULYM</h1>
         <p class="subtitle">Банк және ЧСИ аресттерін заңды түрде шешу</p>
     </section>
@@ -180,7 +180,7 @@
     </a>
 
     <footer>
-        &copy; 2024 LEX FINANCIA. Барлық құқықтар қорғалған.
+        &copy; 2026 LEX FINANCIA. Барлық құқықтар қорғалған.
     </footer>
 
 </body>
